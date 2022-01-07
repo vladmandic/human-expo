@@ -1,16 +1,26 @@
 # human-expo
 
-https://expo.dev/
-https://docs.expo.dev/
+*Work-in-Progress*
 
+## Docs
+
+<https://expo.dev/> 
+<https://docs.expo.dev/>
+<https://reactnative.dev/docs/platform>
 
 ## Install
 
-export NODE_OPTIONS=--openssl-legacy-provider
-yarn init
-yarn install expo-cli --global
-expo init -t expo-template-blank-typescript
-expo login
-expo config
-expo diagnostics
-yarn start
+- use `yarn` as expo's babel config is not compatible with `pnpm`
+  > npm install yarn --global  
+- not compatible with `nodejs` v17
+  > export NODE_OPTIONS=--openssl-legacy-provider
+- install `expo`
+  > yarn install expo-cli --global  
+  > expo init --template expo-template-blank-typescript --yarn  
+  > yarn upgrade  
+- check config
+  > expo login  
+  > expo config  
+  > expo diagnostics  
+- start
+  > yarn start  
