@@ -7,6 +7,7 @@
 <https://expo.dev/> 
 <https://docs.expo.dev/>
 <https://reactnative.dev/docs/platform>
+<https://github.com/tensorflow/tfjs/tree/master/tfjs-react-native>
 
 ## Install
 
@@ -22,5 +23,6 @@
   > expo login  
   > expo config  
   > expo diagnostics  
+  > expo doctor
 - start
   > yarn start  

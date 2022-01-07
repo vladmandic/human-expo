@@ -9,7 +9,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   owner: packageJSON.author,
   orientation: 'portrait',
   privacy: 'public',
-  githubUrl: packageJSON.repository.url,
+  githubUrl: packageJSON.homepage,
   icon: './assets/icon.png',
   splash: {
     image: './assets/icon.png',
