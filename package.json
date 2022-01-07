@@ -1,0 +1,53 @@
+{
+  "name": "@vladmandic/human",
+  "description": "human demo with react-native and expo.io",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "main": "node_modules/expo/AppEntry.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/human-expo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladmandic/human-expo/issues"
+  },
+  "homepage": "https://github.com/vladmandic/human-expo#readme",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "keywords": [
+    "human",
+    "human-library",
+    "face-detection",
+    "body-tracking",
+    "hand-tracking",
+    "react-native",
+    "expo",
+    "tfjs",
+    "tensorflowjs"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@types/react-native": "~0.64.21",
+    "@types/react": "~17.0.38",
+    "@vladmandic/human": "link:../human",
+    "babel-preset-expo": "^9.0.2",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint": "^8.6.0",
+    "expo-status-bar": "~1.2.0",
+    "expo": "~44.0.4",
+    "react-dom": "17.0.1",
+    "react-native-web": "0.17.1",
+    "react-native": "0.64.3",
+    "react": "17.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "~4.3.5"
+  }
+}
