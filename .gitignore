@@ -2,3 +2,5 @@ node_modules/
 .expo/
 .expo-shared/
 pnpm-lock.yaml
+yarn.lock
+yarn-error.log
