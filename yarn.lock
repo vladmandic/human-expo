@@ -1859,8 +1859,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@vladmandic/human@link:../human":
-  version "0.0.0"
+"@vladmandic/human@0.40.9":
+  version "0.40.9"
+  resolved "https://registry.yarnpkg.com/@vladmandic/human/-/human-0.40.9.tgz#e235d4b38ac65e8ac8d8eb9b149dfe20da53aa86"
+  integrity sha512-v7yDVGmqnc5Xp8xLJnA187zrPKH/0QAkAa9UvzPvzJKE9dMWZ9kEzcbOoEcBiMDCfoaT5bKVUszJa5H33wdpYw==
 
 "@xmldom/xmldom@^0.7.5", "@xmldom/xmldom@~0.7.0":
   version "0.7.5"
